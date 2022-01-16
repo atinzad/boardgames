@@ -28,6 +28,28 @@
   color: #61dafb;
 }
 
+
+.container{
+
+  min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
+}
+
+h1{
+  text-align: center  
+}
+
+p{
+text-align: center
+}
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

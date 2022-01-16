@@ -2,23 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<div className ="container">
+  <h1> Hello World to Board Games</h1>
+  <p>site for buying and selling Board Games!</p>
+  <img className="displayed" alt="Board Game logo" src="https://cf.geekdo-static.com/images/logos/navbar-logo-bgg-b2.svg"/>
+  </div>
   );
 }
 
